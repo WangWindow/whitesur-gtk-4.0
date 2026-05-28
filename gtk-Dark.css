@@ -110,6 +110,17 @@
 }
 
 /* This stylesheet is generated, DO NOT EDIT */
+
+window.messagedialog .response-area,
+window.dialog.message .dialog-action-area {
+    padding: 0 !important;
+}
+
+window.messagedialog .response-area button,
+window.dialog.message .dialog-action-area button {
+    margin: 0 !important;
+}
+
 window.background.csd > dialog-host > widget > widget > box > leaflet list.navigation-sidebar {
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.06), transparent 6px);
   background-color: color-mix(in srgb, @sidebar_bg_color 96%, transparent);
